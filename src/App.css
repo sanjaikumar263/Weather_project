@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(3deg, rgba(174,253,255,0) 1%, rgba(54,232,255,1) 100%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+   width: 21rem;
+   padding: 1.8rem;
+   background-color: white;
+   border-radius: 1rem;
+   outline: none;
+   box-shadow: #009BBD;
+   -webkit-box-shadow: 2px 1px 47px 7px rgba(0,0,0,0.56);
+-moz-box-shadow: 2px 1px 47px 7px rgba(0,0,0,0.56);
+box-shadow: 2px 1px 47px 7px rgba(0,0,0,0.56);
+   /* display: flex; */
+}
+.input-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    border: 2px solid rgb(0, 128, 255) ;
+    border-radius: 10px;
+    padding: 2px;
+    overflow: hidden;
+}
+.citynames{
+    outline: none;
+    border: none;
+    flex: 1; 
+    height: 40px ;
+    padding: 10px;
+    font-size: 1rem;
+}
+.search-icon{
+    padding:0.6rem;
+    height: 2rem;
+    cursor: pointer;
+    /* border: none; */
+}
+.search-icon img{
+    margin-top: 5px;
+}
+.images{
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 10px;
+    height: 100px;
+}
+.images img{
+    width: 160px;
+    height: 160px;
+}
+
+.temp,.location,.country{
+    text-align: center;
+    margin-top: 20px;
+    font-size: xx-large;
+    text-transform: uppercase;
+}
+.temp{
+    font-weight: 700;
+}
+.degree{
+    color: aqua;
+}
+.location{
+    color: rgb(28, 104, 100);
+    /* text-shadow: yellow; */
+}
+.country{
+    font-size: 20px;
+}
+
+.lat-log{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.lat-log div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lat-log div span:nth-child(2){
+    font-weight: 800;
+    font-size: 24px;
+}
+.copyrights{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 800;
+}
+.loading{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.error{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.citynotfounded{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
